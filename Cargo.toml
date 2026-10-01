@@ -1,0 +1,13 @@
+[package]
+name = "kriterion-engine"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+description = "A Rust-based evaluation engine for structured evaluation tables."
+license = "MIT"
+repository = "https://github.com/dnbsammie/kriterion-engine"
+readme = "README.md"
+keywords = ["evaluation", "table", "cli", "tui"]
+categories = ["command-line-utilities", "data-structures"]
+
+[dependencies]
