@@ -1,15 +1,18 @@
 <div align="center">
 
-# Kriterion Engine ⚙️📊
-<!--<picture>
+# Kriterion Engine ⚙️
+
+<picture>
     <source media="(prefers-color-scheme: dark)"
-            srcset="./docs/img/kriterion-dark.png">
+            srcset="./docs/images/kriterion-dark.png">
     <source media="(prefers-color-scheme: light)"
-            srcset="./docs/img/kriterion-light.png">
-    <img src="./docs/img/kriterion-light.png"
+            srcset="./docs/images/kriterion-light.png">
+    <img src="./docs/images/kriterion-light.png"
         alt="Kriterion Banners">
-        </picture> -->
+</picture>
+
   <br>
+      
   <p>
     <a href="https://github.com/dnbsammie/kriterion-engine/issues">
       <img src="https://img.shields.io/github/issues/dnbsammie/kriterion-engine" alt="Issues">
@@ -87,4 +90,26 @@ Format:
 ```sh
 cargo fmt
 ```
+
+## Documentation
+
+Documentation for Kriterion-Engine.
+
+### Contents
+
+- [`architecture/`](docs/architecture/) — System architecture, domain model, data flow, and technical concepts.
+- [`decisions/`](docs/decisions/) — Architecture Decision Records (ADRs) documenting important technical decisions.
+- [`design/`](docs/design/) — TUI design, interaction model, navigation, editing workflows, and keybindings.
+- [`images/`](docs/images/) — Screenshots and visual assets used by the documentation.
+
+### Documentation principles
+
+Documentation should explain:
+
+- what the system does;
+- how its components interact;
+- why important technical decisions were made;
+- how users interact with the application.
+
+Implementation details that can be derived directly from the source code should generally remain in the code rather than being duplicated here.
 ---
